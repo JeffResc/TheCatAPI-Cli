@@ -12,9 +12,7 @@ AlphaTech@AlphaVPS:~$ ./cat.sh --ascii
 ```
 
 #Usage (Globally Throughout The System (Root Access Required))
-```bash
-root@AlphaVPS:~# wget -O /usr/bin/catpic https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/global.sh && chmod +x global.sh && bash global.sh && rm global.sh
-```
+```wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/global.sh && chmod +x global.sh && bash global.sh && rm global.sh```
 
 #Common Errors (Within The Normal Script)
 ```bash
