@@ -3,19 +3,23 @@ Use http://TheCatAPI.com/ through a Linux Terminal
 
 #Usage (As normal script)
 ```bash
-AlphaTech@AlphaVPS:~$ wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/cat.sh
-AlphaTech@AlphaVPS:~$ # Default Method; Returns cat URL
-AlphaTech@AlphaVPS:~$ ./cat.sh
-AlphaTech@AlphaVPS:~$
-AlphaTech@AlphaVPS:~$ # Ascii Method; Returns an ascii picture of a cat (requires [jp2a](https://github.com/AlphaT3ch/TheCatAPI-Cli/blob/master/jp2a.md))
-AlphaTech@AlphaVPS:~$ ./cat.sh --ascii
+wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/cat.sh
+# Default Method; Returns cat URL
+./cat.sh
+
+# Ascii Method; Returns an ascii picture of a cat (requires [jp2a](https://github.com/AlphaT3ch/TheCatAPI-Cli/blob/master/jp2a.md))
+./cat.sh --ascii
 ```
 
 #Usage (Globally Throughout The System (Root Access Required))
 ```bash
-root@AlphaVPS:~# wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/global.sh && chmod +x global.sh && bash global.sh && rm global.sh
-root@AlphaVPS:~# # Usage
-root@AlphaVPS:~# catpic
+wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/global.sh && chmod +x global.sh && bash global.sh && rm global.sh
+
+# Usage
+catpic
+
+# Ascii Usage
+catpic --ascii
 ```
 
 #Common Errors (Within The Normal Script)
