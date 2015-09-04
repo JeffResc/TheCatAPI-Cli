@@ -20,6 +20,9 @@ catpic
 
 # Ascii Usage
 catpic --ascii
+
+# Uninstaller
+catpic --remove
 ```
 
 #Common Errors
