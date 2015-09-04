@@ -22,7 +22,7 @@ catpic
 catpic --ascii
 ```
 
-#Common Errors (Within The Normal Script)
+#Common Errors
 ```bash
 root@AlphaVPS:~# ./catpic --ascii
 ./catpic: line 4: jp2a: command not found
