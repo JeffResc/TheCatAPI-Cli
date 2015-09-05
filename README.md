@@ -13,7 +13,7 @@ wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/cat.sh
 
 #Usage (Globally Throughout The System (Root Access Required))
 ```bash
-wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/global.sh && chmod +x global.sh && bash global.sh && rm global.sh
+wget -O - https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/global.sh | bash
 
 # Usage
 catpic

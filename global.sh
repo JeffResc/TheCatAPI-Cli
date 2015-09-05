@@ -21,3 +21,4 @@ chmod +x /usr/bin/catpic
 export PATH=$PATH:/usr/bin
 echo "Successfully installed catpic to /usr/bin and added /usr/bin to the PATH variable"
 fi
+rm global.sh
