@@ -21,6 +21,9 @@ catpic
 # Ascii Usage
 catpic --ascii
 
+# Custom Width Ascii
+catpic --ascii 50
+
 # Uninstaller
 catpic --remove
 ```

@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 if [ "$1" == "--ascii" ]
 then
+if [ -z "$2" ]
+then
 jp2a http://thecatapi.com/api/images/get?format=src&type=jpg
+else
+jp2a --width=$2 http://thecatapi.com/api/images/get?format=src&type=jpg
+fi
 elif [ "$1" == "--remove" ]
 then
 if [ -a "/usr/bin/catpic" ]
