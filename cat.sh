@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if [ "$1" == "--ascii" ]
+if [ "$1" == "--ascii" ] || [ "$1" == "-a" ]
 then
 if [ -z "$2" ]
 then
