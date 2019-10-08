@@ -9,6 +9,6 @@ if [ $# -gt 1 ] && { [ "$1" == "-a" ] || [ "$1" == "--ascii" ]; }; then
 		jp2a --colors --width="$2" "http://thecatapi.com/api/images/get?format=src&type=jpg"
 	fi
 else
-	contents=$(wget "http://thecatapi.com/api/images/get?format=html" -q -O -)
-	sed -n '/<img/s/.*src="\([^"]*\)".*/\1/p' <<<"$contents"
+	CONTENTS=$(wget "http://thecatapi.com/api/images/get?format=html" -q -O -)
+	sed -n '/<img/s/.*src="\([^"]*\)".*/\1/p' <<<"$CONTENTS"
 fi

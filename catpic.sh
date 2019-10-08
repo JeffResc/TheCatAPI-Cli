@@ -20,6 +20,6 @@ elif [ $# -gt 1 ] && [ "$1" == "--remove" ]; then
 		echo "Script detected in /usr/sbin... Removed!"
 	fi
 else
-	contents=$(wget "http://thecatapi.com/api/images/get?format=html" -q -O -)
-	sed -n '/<img/s/.*src="\([^"]*\)".*/\1/p' <<<"$contents"
+	CONTENTS=$(wget "http://thecatapi.com/api/images/get?format=html" -q -O -)
+	sed -n '/<img/s/.*src="\([^"]*\)".*/\1/p' <<<"$CONTENTS"
 fi
