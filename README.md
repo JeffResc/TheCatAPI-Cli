@@ -21,6 +21,9 @@ catpic
 # Ascii Usage
 catpic --ascii
 
+# Alternatively use the short flag
+catpic -a
+
 # Custom Width Ascii
 catpic --ascii 50
 
