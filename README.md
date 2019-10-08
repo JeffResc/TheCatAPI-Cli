@@ -1,7 +1,7 @@
 # TheCatAPI-Cli
 Use http://TheCatAPI.com/ through a Linux Terminal
 
-#Usage (As normal script)
+### Usage (As normal script)
 ```bash
 wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/cat.sh
 # Default Method; Returns cat URL
@@ -11,7 +11,7 @@ wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/cat.sh
 ./cat.sh --ascii
 ```
 
-#Usage (Globally Throughout The System (Root Access Required))
+### Usage (Globally Throughout The System (Root Access Required))
 ```bash
 wget -O - https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/global.sh | bash
 
@@ -28,7 +28,7 @@ catpic --ascii 50
 catpic --remove
 ```
 
-#Common Errors
+### Common Errors
 ```bash
 root@AlphaVPS:~# ./catpic --ascii
 ./catpic: line 4: jp2a: command not found
