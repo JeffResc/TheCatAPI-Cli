@@ -4,6 +4,7 @@ Use http://TheCatAPI.com/ through a Linux Terminal
 ### Usage (As normal script)
 ```bash
 wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/cat.sh
+chmod +x cat.sh
 # Default Method; Returns cat URL
 ./cat.sh
 
