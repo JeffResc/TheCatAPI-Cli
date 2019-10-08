@@ -10,4 +10,5 @@
 ```emerge jp2a```
 
 ## Other
-If your system isn't avaiable here, check out the [jp2a website](https://csl.name/jp2a/).
+
+If your system isn't available here, check out the [jp2a website](https://csl.name/jp2a/).
