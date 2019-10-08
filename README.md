@@ -40,3 +40,12 @@ root@AlphaVPS:~# ./catpic --ascii
 root@AlphaVPS:~# Not a JPEG file: starts with 0x47 0x49
 ```
 Resolution: Sadly, there is no resolution for this yet because [The Cat API](http://thecatapi.com/) isn't returning the called-for information
+
+
+# Sample Output
+
+## Normal execution without any arguments
+<img src = "normal.png"/>
+
+## with --ascii option 
+<img src = "ascii.png"/>
