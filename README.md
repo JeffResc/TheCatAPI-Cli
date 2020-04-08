@@ -3,18 +3,18 @@ Use http://TheCatAPI.com/ through a Linux Terminal
 
 ### Usage (As normal script)
 ```bash
-wget https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/cat.sh
+wget https://raw.githubusercontent.com/JeffResc/TheCatAPI-Cli/master/cat.sh
 chmod +x cat.sh
 # Default Method; Returns cat URL
 ./cat.sh
 
-# Ascii Method; Returns an ascii picture of a cat (requires [jp2a](https://github.com/AlphaT3ch/TheCatAPI-Cli/blob/master/jp2a.md))
+# Ascii Method; Returns an ascii picture of a cat (requires [jp2a](https://github.com/JeffResc/TheCatAPI-Cli/blob/master/jp2a.md))
 ./cat.sh --ascii
 ```
 
 ### Usage (Globally Throughout The System (Root Access Required))
 ```bash
-wget -O - https://raw.githubusercontent.com/AlphaT3ch/TheCatAPI-Cli/master/global.sh | bash
+wget -O - https://raw.githubusercontent.com/JeffResc/TheCatAPI-Cli/master/global.sh | bash
 
 # Usage
 catpic
@@ -37,7 +37,7 @@ catpic --remove
 root@AlphaVPS:~# ./catpic --ascii
 ./catpic: line 4: jp2a: command not found
 ```
-Resolution: [Install jp2a](https://github.com/AlphaT3ch/TheCatAPI-Cli/blob/master/jp2a.md)
+Resolution: [Install jp2a](https://github.com/JeffResc/TheCatAPI-Cli/blob/master/jp2a.md)
 
 ```bash
 root@AlphaVPS:~# ./catpic --ascii
